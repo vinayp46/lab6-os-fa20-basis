@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -g -Wall -Werror -Wextra -pedantic
+CFLAGS = -g -O0 -Wall -Werror -Wextra -pedantic -Wno-unused-parameter
 THREAD=-pthread
 RM=rm -rf
 
